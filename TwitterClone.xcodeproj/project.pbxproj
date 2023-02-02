@@ -18,6 +18,7 @@
 		DD097AA2298BF6B500EFA60F /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD097AA1298BF6B500EFA60F /* NotificationsViewController.swift */; };
 		DD097AA4298BF6C400EFA60F /* DirectMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD097AA3298BF6C400EFA60F /* DirectMessagesViewController.swift */; };
 		DD097AA7298C15BD00EFA60F /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */; };
+		DD253E8D298C36FD00BB1957 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253E8C298C36FD00BB1957 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DD097AA1298BF6B500EFA60F /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		DD097AA3298BF6C400EFA60F /* DirectMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessagesViewController.swift; sourceTree = "<group>"; };
 		DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		DD253E8C298C36FD00BB1957 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		DD097A9B298BF67300EFA60F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DD253E8B298C36EB00BB1957 /* General */,
 				DD097A9C298BF67E00EFA60F /* Core */,
 			);
 			path = Controllers;
@@ -104,6 +107,14 @@
 				DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DD253E8B298C36EB00BB1957 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DD253E8C298C36FD00BB1957 /* ProfileViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +189,7 @@
 			files = (
 				DD097AA0298BF6A900EFA60F /* SearchViewController.swift in Sources */,
 				DD097A9E298BF69300EFA60F /* HomeViewController.swift in Sources */,
+				DD253E8D298C36FD00BB1957 /* ProfileViewController.swift in Sources */,
 				DD097AA7298C15BD00EFA60F /* TweetTableViewCell.swift in Sources */,
 				DD097A89298BF50C00EFA60F /* MainTabbarViewController.swift in Sources */,
 				DD097AA4298BF6C400EFA60F /* DirectMessagesViewController.swift in Sources */,
