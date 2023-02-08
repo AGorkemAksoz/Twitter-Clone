@@ -19,6 +19,7 @@
 		DD097AA4298BF6C400EFA60F /* DirectMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD097AA3298BF6C400EFA60F /* DirectMessagesViewController.swift */; };
 		DD097AA7298C15BD00EFA60F /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */; };
 		DD253E8D298C36FD00BB1957 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD253E8C298C36FD00BB1957 /* ProfileViewController.swift */; };
+		DD862CF9299151C600FDA177 /* ProfileTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD862CF8299151C600FDA177 /* ProfileTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DD097AA3298BF6C400EFA60F /* DirectMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessagesViewController.swift; sourceTree = "<group>"; };
 		DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		DD253E8C298C36FD00BB1957 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD862CF8299151C600FDA177 /* ProfileTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				DD097AA6298C15BD00EFA60F /* TweetTableViewCell.swift */,
+				DD862CF8299151C600FDA177 /* ProfileTableViewHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				DD097A85298BF50C00EFA60F /* AppDelegate.swift in Sources */,
 				DD097AA2298BF6B500EFA60F /* NotificationsViewController.swift in Sources */,
 				DD097A87298BF50C00EFA60F /* SceneDelegate.swift in Sources */,
+				DD862CF9299151C600FDA177 /* ProfileTableViewHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
