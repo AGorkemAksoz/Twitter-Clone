@@ -15,6 +15,15 @@ class HomeViewController: UIViewController {
     
     private var subscriptions: Set<AnyCancellable> = []
     
+    private let composeTweetButton: UIButton = {
+        let button = UIButton(type: .system, primaryAction: UIAction { _ in
+            
+        })
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor =  UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1)
+        return button
+    }()
+    
     private func configureNavigationBar() {
         let size: CGFloat = 36
         let logoImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: size, height: size))

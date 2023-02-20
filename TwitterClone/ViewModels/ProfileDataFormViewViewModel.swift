@@ -75,7 +75,7 @@ final class ProfileDataFormViewViewModel: ObservableObject {
               let id = Auth.auth().currentUser?.uid else { return }
         
         let updatedFields: [String: Any] = [
-            "displaName": displayName,
+            "displayName": displayName,
             "username": userName,
             "bio": bio,
             "avatarPath": avatarPath,
