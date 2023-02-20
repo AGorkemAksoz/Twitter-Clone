@@ -40,6 +40,7 @@
 		DD862D23299E5E8200FDA177 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD862D22299E5E8200FDA177 /* HomeViewViewModel.swift */; };
 		DD862D25299E61B000FDA177 /* ProfileDataFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD862D24299E61B000FDA177 /* ProfileDataFormViewController.swift */; };
 		DD862D27299E62BA00FDA177 /* ProfileDataFormViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD862D26299E62BA00FDA177 /* ProfileDataFormViewViewModel.swift */; };
+		DD9187F929A384A200766D9D /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9187F829A384A200766D9D /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		DD862D22299E5E8200FDA177 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		DD862D24299E61B000FDA177 /* ProfileDataFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataFormViewController.swift; sourceTree = "<group>"; };
 		DD862D26299E62BA00FDA177 /* ProfileDataFormViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataFormViewViewModel.swift; sourceTree = "<group>"; };
+		DD9187F829A384A200766D9D /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			children = (
 				DD862D19299D073000FDA177 /* AuthManager.swift */,
 				DD862D20299E58AE00FDA177 /* DatabaseManager.swift */,
+				DD9187F829A384A200766D9D /* StorageManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				DD862D17299CFF9E00FDA177 /* AuthenticationViewViewModel.swift in Sources */,
 				DD097A8F298BF50C00EFA60F /* TwitterClone.xcdatamodeld in Sources */,
 				DD862D12299CF09100FDA177 /* OnboardingViewController.swift in Sources */,
+				DD9187F929A384A200766D9D /* StorageManager.swift in Sources */,
 				DD097A85298BF50C00EFA60F /* AppDelegate.swift in Sources */,
 				DD097AA2298BF6B500EFA60F /* NotificationsViewController.swift in Sources */,
 				DD862D1C299D589400FDA177 /* LoginViewController.swift in Sources */,
