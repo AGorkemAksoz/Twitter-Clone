@@ -29,14 +29,12 @@ class TweetTableViewCell: UITableViewCell {
         imageView.layer.cornerRadius = 25
         imageView.layer.masksToBounds = true
         imageView.clipsToBounds = true
-        imageView.image = UIImage(systemName: "person")
         imageView.backgroundColor = .red
         return imageView
     }()
     
     private let displayNameLabel: UILabel = {
         let label = UILabel()
-        label.text = "Ali Görkem Aksöz"
         label.font = .systemFont(ofSize: 18, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -47,14 +45,12 @@ class TweetTableViewCell: UITableViewCell {
         label.font = .systemFont(ofSize: 16, weight: .regular)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .secondaryLabel
-        label.text = "@AGorkemAksoz"
         return label
     }()
     
     private let tweetTextContentLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "This is my mock up tweet. It is going to take multiple lines. I believe some more text is enough but let's add some more."
         label.numberOfLines = 0
         return label
     }()
@@ -131,6 +127,13 @@ class TweetTableViewCell: UITableViewCell {
         retweetButton.addTarget(self, action: #selector(didTapRetweet), for: .touchUpInside)
         likeButton.addTarget(self, action: #selector(didTapLike), for: .touchUpInside)
         shareButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
+    }
+    
+    func configureTweet(with displayName: String, userName: String, tweetContent: String, avatarPath: String) {
+        displayNameLabel.text = displayName
+        userNameLabel.text = "@\(userName)"
+        tweetTextContentLabel.text = tweetContent
+        avatarImageView.sd_setImage(with: URL(string: avatarPath))
     }
     
     private func configureConstraints() {

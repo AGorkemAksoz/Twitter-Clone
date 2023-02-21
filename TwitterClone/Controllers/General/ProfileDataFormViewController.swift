@@ -80,7 +80,7 @@ class ProfileDataFormViewController: UIViewController {
         textView.layer.masksToBounds = true
         textView.layer.cornerRadius = 8
         textView.textContainerInset = .init(top: 15, left: 15, bottom: 15, right: 15)
-        textView.text = "Tell the world about "
+        textView.text = "Tell the world about yourself"
         textView.textColor = .gray
         textView.font = .systemFont(ofSize: 16)
         return textView
@@ -92,7 +92,7 @@ class ProfileDataFormViewController: UIViewController {
         button.setTitle("Submit", for: .normal)
         button.tintColor = .white
         button.titleLabel?.font = .systemFont(ofSize: 16)
-        button.backgroundColor = UIColor(red: 29/255, green: 161/255, blue: 242/255, alpha: 1)
+        button.backgroundColor = UIColor.twitterBlueColor
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 25
         button.isEnabled = false
